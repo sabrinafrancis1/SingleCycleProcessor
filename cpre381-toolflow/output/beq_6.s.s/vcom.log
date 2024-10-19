@@ -1,0 +1,93 @@
+QuestaSim-64 vcom 2023.2_2 Compiler 2023.06 Jun  9 2023
+Start time: 00:24:00 on Oct 24,2023
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/TopLevel/mem.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/mainProj/onesComp.vhd proj/src/mainProj/Adder.vhd proj/src/mainProj/extension.vhd proj/src/mainProj/ALU.vhd proj/src/mainProj/RegLd.vhd proj/src/mainProj/nor_32bit.vhd proj/src/mainProj/equals.vhd proj/src/mainProj/slt.vhd proj/src/mainProj/ALUcontrol.vhd proj/src/mainProj/mux32t1.vhd proj/src/mainProj/and_32bit.vhd proj/src/mainProj/Multiplier.vhd proj/src/mainProj/org2.vhd proj/src/mainProj/andg2.vhd proj/src/mainProj/dffg.vhd proj/src/mainProj/xor_32bit.vhd proj/src/mainProj/AddSub_MIPS.vhd proj/src/mainProj/PC.vhd proj/src/mainProj/xorg2.vhd proj/src/mainProj/mux2t1_N.vhd proj/src/mainProj/invg.vhd proj/src/mainProj/register_file.vhd proj/src/mainProj/bus_6digit.vhd proj/src/mainProj/barrel_shifter.vhd proj/src/mainProj/or_32bit.vhd proj/src/mainProj/Mux2to1.vhd proj/src/mainProj/register_N.vhd proj/src/mainProj/fullAdder_N.vhd proj/src/mainProj/Reg.vhd proj/src/mainProj/processor.vhd proj/src/mainProj/control.vhd proj/src/mainProj/decoder.vhd proj/src/mainProj/JumpAddress.vhd proj/src/mainProj/fullAdder.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/MIPS_types.vhd(15): (vcom-1615) Existing package 'MIPS_types' at line 15 will be overwritten.
+-- Compiling package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(29): (vcom-1615) Existing package body 'MIPS_types(body)' at line 29 will be overwritten.
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity onesComp
+-- Compiling architecture structural of onesComp
+-- Compiling entity Adder
+-- Compiling architecture behavior of Adder
+-- Compiling entity extension
+-- Compiling architecture behavior of extension
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+-- Compiling entity RegLd
+-- Compiling architecture behavior of RegLd
+-- Compiling entity nor_32bit
+-- Compiling architecture dataflow of nor_32bit
+-- Compiling entity equals
+-- Compiling architecture dataflow of equals
+-- Compiling entity slt
+-- Compiling architecture dataflow of slt
+-- Compiling entity ALUcontrol
+-- Compiling architecture structural of ALUcontrol
+-- Compiling entity mux32t1
+-- Compiling architecture structural of mux32t1
+-- Compiling entity and_32bit
+-- Compiling architecture dataflow of and_32bit
+-- Compiling entity Multiplier
+-- Compiling architecture behavior of Multiplier
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity xor_32bit
+-- Compiling architecture dataflow of xor_32bit
+-- Compiling entity Add_Sub_MIPS1
+-- Compiling architecture structural of Add_Sub_MIPS1
+-- Compiling entity PC
+-- Compiling architecture structural of PC
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity register_file
+-- Compiling architecture structural of register_file
+-- Compiling package bus_6digit
+-- Compiling entity barrel_shifter
+-- Compiling architecture mixed of barrel_shifter
+-- Compiling entity or_32bit
+-- Compiling architecture dataflow of or_32bit
+-- Compiling entity Mux2to1
+-- Compiling architecture structure of Mux2to1
+-- Compiling entity register_N
+-- Compiling architecture structural of register_N
+-- Compiling entity fullAdder_N
+-- Compiling architecture structural of fullAdder_N
+-- Compiling entity Reg
+-- Compiling architecture behavior of Reg
+-- Compiling entity processor
+-- Compiling architecture structural of processor
+-- Compiling entity control
+-- Compiling architecture behavioral of control
+-- Compiling entity decoder
+-- Compiling architecture structural of decoder
+-- Compiling entity JumpAddress
+-- Compiling architecture structural of JumpAddress
+-- Compiling entity fullAdder
+-- Compiling architecture structure of fullAdder
+End time: 00:24:00 on Oct 24,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 2

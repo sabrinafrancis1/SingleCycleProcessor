@@ -1,0 +1,53 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Processor
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/MIPS_types.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/TopLevel/mem.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/ALU.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/ALUcontrol.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/AddSub_MIPS.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/Adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/JumpAddress.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/Multiplier.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/Mux2to1.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/PC.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/Reg.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/RegLd.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/and_32bit.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/andg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/barrel_shifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/bus_6digit.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/control.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/decoder.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/dffg.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/equals.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/extension.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/fullAdder.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/fullAdder_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/invg.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/mux32t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/nor_32bit.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/onesComp.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/or_32bit.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/org2.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/register_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/register_file.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/slt.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/xor_32bit.vhd"
+set_global_assignment -name VHDL_FILE "/home/sabrinaf/CPRE381_Project1/Project1/cpre381-toolflow/proj/src/mainProj/xorg2.vhd"
